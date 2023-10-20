@@ -1,0 +1,73 @@
+/* body {
+    font-family: sans-serif;
+    background-color: rgb(48, 175, 248);
+} */
+header {
+    width: auto;
+    height: 150px;
+    background-color:#DAD5AB;
+    margin: auto 0;
+}
+
+header article {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+header article img{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+header section{
+    width: auto;
+    height: 150px;
+    /* float: left; */
+    padding-top: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+nav{
+    width: auto;
+    height: 40px;
+    background-color:#FEFFE2;
+    align-items: center;
+    
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav li a{
+    font-size: 30px;
+    color: white;
+    padding-top: 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+#recipe{
+    width: auto;
+    background-color: #F0F0CB;
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+aside{
+    width: 300px;
+    height: 3000px;
+    background-color: #FEFFE2;
+    float: left;
+    position: sticky;
+}
+main{
+    float: left;
+}
+#dinners,#Desserts,#healthy{
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.arr{
+    display: grid;
+    grid-template-columns: auto auto;
+}
